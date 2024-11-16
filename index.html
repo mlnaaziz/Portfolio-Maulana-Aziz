@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Aditya Vikram Singh" />
+
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Aditya Singh, Aditya Vikram Singh, Aditya Vikram Singh DPS,
+        Aditya Vikram Singh DPSRKP, Aditya Vikram Singh UMass, Aditya Vikram
+        Singh UMass Amherst, Aditya Vikram Singh New Delhi, Aditya Vikram
+        Singh Amherst, Aditya Vikram Singh ISSDC, Aditya Vikram Singh NASA,
+        Aditya Vikram Singh, Aditya Vikram Singh Website, Aditya V Singh"
+    />
+    <!-- Webpage Title -->
+    <title>Portfolio | Maulana Aziz</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">MAULANA AZIZ</span>
+          <span class="site-description"
+            >Wordpress Developer • QA Manual & Automation Engineering</span
+          >
+        </h1>
+        <div class="header-icons">
+          <a
+            aria-label="My LinkedIn Profile"
+            target="_blank"
+            href="https://www.linkedin.com/in/mlna-aziz/"
+          >
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a
+            aria-label="My Instagram Profile"
+            target="_blank"
+            href="https://instagram.com/mlnaaziz"
+          >
+            <i class="icon fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a
+            aria-label="My Résumé"
+            target="_blank"
+            href="https://drive.google.com/file/d/1sumLbG893rzG9CU6bqgR-lPPJvIhHWt_/view?usp=sharing"
+          >
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a
+            aria-label="Send Email"
+            href="mailto:maulanaazizofficial@gmail.com"
+            target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll
+        ><i class="icon fa fa-chevron-down" aria-hidden="true"></i
+      ></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>About Me</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/MaulanaAziz.webp"
+            alt="Professional Me"
+            width="15%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="./assets/img/jpg/MaulanaAziz.jpg"
+            alt="Professional Me"
+            width="15%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          I am a fresh graduate in Computer Science from Institut Pertanian
+          Bogor, equipped with a strong foundation in project management,
+          leadership, and effective communication. Recognized as the Third Most
+          Outstanding Student in Computer Science at IPB in 2022, I have honed
+          my skills through active participation in UX competitions, leadership
+          roles in student organizations, and volunteer initiatives. My academic
+          background includes core subjects such as Algorithms and Programming
+          Fundamentals, Computational Mathematics, Data Structures, Databases,
+          Discrete Structures, and Computer Science Ethics.
+        </p>
+        <p>
+          In addition, I successfully led the Propelan Community, where I
+          organized and managed impactful programs, and contributed
+          significantly to initiatives in both BEM FMIPA and UKM. These
+          experiences have sharpened my team management skills and strengthened
+          my ability to execute projects that make a meaningful impact.
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user">
+        <!-- Technical Skills #1 -->
+        <div class="tech">
+          <h2>Technical Skills</h2>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg"
+            class="wordpress-icon"
+            alt="Wordpress Icon"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+            class="figma-icon"
+            alt="Figma Icon"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg"
+            class="selenium-icon"
+            alt="Selenium Icon"
+          />
+        </div>
+
+        <!-- Soft Skills #2 -->
+        <div class="soft-skills">
+          <h2>Soft Skills</h2>
+          <p>Time-Management</p>
+          <p>Problem-Solving</p>
+          <p>Communication</p>
+          <p>Collaboration</p>
+          <p>Writing Skills</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>My Works</h1>
+        <p>
+          A collection of projects I've worked on as a WordPress Developer &
+          Quality Assurance.
+        </p>
+      </div>
+      <!-- Tab Buttons -->
+      <div class="tabs">
+        <button
+          class="tab-button active"
+          onclick="showTabContent('wordpress')"
+          id="wordpress-tab"
+        >
+          Wordpress Developer
+        </button>
+        <button class="tab-button locked" data-locked="true" id="quality-tab">
+          Quality Assurance 🔒
+        </button>
+      </div>
+      <!-- Scrip .js untul locked tab QA -->
+      <script>
+        function showTabContent(tabId) {
+          const clickedButton = event.currentTarget; // Tombol yang diklik
+
+          // Cek apakah tab terkunci
+          if (clickedButton.dataset.locked === "true") {
+            alert("QA portfolio updated soon");
+            return; // Hentikan eksekusi jika tab terkunci
+          }
+
+          // Hapus kelas aktif dari semua tombol
+          document
+            .querySelectorAll(".tab-button")
+            .forEach((button) => button.classList.remove("active"));
+
+          // Sembunyikan semua konten tab
+          document
+            .querySelectorAll(".tab-content")
+            .forEach((content) => (content.style.display = "none"));
+
+          // Tampilkan konten tab yang dipilih
+          document.getElementById(tabId).style.display = "flex";
+
+          // Tambahkan kelas aktif pada tombol tab yang diklik
+          clickedButton.classList.add("active");
+        }
+      </script>
+      <!-- Tab Wordpress Developer -->
+      <div id="wordpress" class="tab-content">
+        <!-- 6 Kotak untuk konten Wordpress Developer -->
+        <div class="content-container">
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/PPDBSekolahAlbunyan.png"
+              alt="Project Image"
+            />
+            <h3>PPDB Sekolah Al Bunyan</h3>
+            <p>
+              Designed to streamline the new student admission process. The
+              user-friendly website features an online registration form,
+              detailed information about schedules, requirements, and
+              step-by-step guides to ensure a smooth experience. With a modern
+              and responsive design, it is accessible across various devices,
+              allowing parents and students to register anytime, anywhere. This
+              website serves as an efficient digital solution to simplify the
+              admission process and support Al Bunyan School in welcoming new
+              students, ensuring a seamless transition into the school’s
+              educational journey.
+            </p>
+            <a href="https://ppdb.sekolahalbunyan.sch.id" target="_blank">
+              Kunjungi Website
+            </a>
+          </div>
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/PPDBIbnuSienaMulia.png"
+              alt="Project Image"
+            />
+            <h3>PPDB Ibnu Siena Mulia</h3>
+            <p>
+              Tailored to meet the unique needs of their student admissions
+              process. The website provides a clear and organized platform for
+              prospective students and parents to access essential information,
+              such as registration guidelines, requirements, and schedules. With
+              a focus on simplicity and ease of use, it offers an intuitive
+              experience for online registration. The responsive design ensures
+              accessibility across all devices, making it convenient for users
+              to complete the registration process seamlessly and efficiently,
+              contributing to the school’s growth and success.
+            </p>
+            <a href="https://ppdb.ibnusienamulia.sch.id" target="_blank">
+              Kunjungi Website
+            </a>
+          </div>
+          <div class="content-box">
+            <img src="./assets/img/jpg/KopenKreatif.png" alt="Project Image" />
+            <h3>Kopen Kreatif Ageny</h3>
+            <p>
+              A digital creative agency focused on providing top-notch services
+              to businesses. The website features an engaging and professional
+              design that highlights the agency’s expertise in branding, social
+              media management, website development, and digital consulting. It
+              provides visitors with clear information about the services
+              offered, along with case studies and client testimonials to
+              showcase the agency’s success. The user-friendly interface and
+              responsive layout ensure a seamless experience across devices,
+              positioning Kopen Kreatif Agency as a reliable partner for
+              businesses looking to grow and thrive in the digital world.
+            </p>
+            <a href="http://kopenkreatif.com" target="_blank">
+              Kunjungi Website
+            </a>
+          </div>
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/UMKMKopenKreatif.png"
+              alt="Project Image"
+            />
+            <h3>UMKM Kopen Kreatif</h3>
+            <p>
+              I developed the website for UMKM Kopen Kreatif by Kopen Kreatif
+              Agency, designed specifically for running advertising campaigns on
+              social media platforms like Instagram and Facebook. This platform
+              helps UMKM showcase their products and services to a wider
+              audience. With a user-friendly design and responsive layout, the
+              website enables businesses to display their offerings in an
+              engaging way, perfect for online promotions. It is a powerful tool
+              for driving visibility and boosting engagement through targeted
+              social media ads, supporting UMKM in expanding their reach and
+              growing their digital presence.
+            </p>
+            <a href="http://umkm.kopenkreatif.com" target="_blank">
+              Kunjungi Website
+            </a>
+          </div>
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/Kopenkreatif.id.png"
+              alt="Project Image"
+            />
+            <h3>Kopenkreatid.id</h3>
+            <p>
+              A platform offering branding and print services for political
+              campaigns and other businesses. The website highlights the
+              agency’s expertise in creating impactful political branding,
+              including logo design, campaign materials, and promotional
+              strategies. It also provides a range of print services, from
+              banners to brochures, to help clients effectively communicate
+              their message. With a professional, easy-to-navigate design, the
+              website serves as a comprehensive hub for businesses and political
+              figures seeking high-quality branding and print solutions to
+              strengthen their presence and reach their target audience.
+            </p>
+            <a href="http://kopenkreatif.id" target="_blank">
+              Kunjungi Website
+            </a>
+          </div>
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/JelajahIndonesia.png"
+              alt="Project Image"
+            />
+            <h3>Jelajah Indonesia bersama Anak Yatim</h3>
+            <p>
+              The "Jelajah Indonesia bersama Anak Yatim" program is designed to
+              provide valuable experiences for orphaned children by introducing
+              them to Indonesia’s rich cultural heritage. Through visits to
+              museums and cultural sites with significant historical value, the
+              children can learn firsthand about the nation’s heritage. This
+              program not only offers educational opportunities but also allows
+              them to experience the beauty of Indonesia’s history and culture,
+              creating unforgettable memories. By connecting orphans to the
+              country’s cultural identity, we aim to broaden their perspectives
+              and enrich their understanding of this diverse and fascinating
+              nation.
+            </p>
+            <a href="http://bahagiakanyatim.id" target="_blank">
+              Kunjungi Website
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Quality Assurance -->
+      <div id="quality" class="tab-content" style="display: none">
+        <!-- 3 Kotak untuk konten Quality Assurance -->
+        <div class="content-container">
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/COVID19-Tracker-App.jpg"
+              alt="Project Image"
+            />
+            <h3>Project Title 1</h3>
+            <p>Short description of the project.</p>
+            <a href="https://projectlink.com" target="_blank">
+              <i class="devicon-chrome-plain"></i>
+            </a>
+          </div>
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/COVID19-Tracker-App.jpg"
+              alt="Project Image"
+            />
+            <h3>Project Title 1</h3>
+            <p>Short description of the project.</p>
+            <a href="https://projectlink.com" target="_blank">
+              <i class="devicon-chrome-plain"></i>
+            </a>
+          </div>
+          <div class="content-box">
+            <img
+              src="./assets/img/jpg/COVID19-Tracker-App.jpg"
+              alt="Project Image"
+            />
+            <h3>Project Title 1</h3>
+            <p>Short description of the project.</p>
+            <a href="https://projectlink.com" target="_blank">
+              <i class="devicon-chrome-plain"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript Tab -->
+    <script>
+      function showTabContent(tabId) {
+        // Hapus kelas aktif dari semua tombol
+        document
+          .querySelectorAll(".tab-button")
+          .forEach((button) => button.classList.remove("active"));
+
+        // Sembunyikan semua konten tab
+        document
+          .querySelectorAll(".tab-content")
+          .forEach((content) => (content.style.display = "none"));
+
+        // Tampilkan konten tab yang dipilih
+        document.getElementById(tabId).style.display = "flex";
+
+        // Tambahkan kelas aktif pada tombol tab yang diklik
+        event.currentTarget.classList.add("active");
+      }
+    </script>
+
+    <footer class="footer">
+      <p>&copy; Maulana Aziz - 2024</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
