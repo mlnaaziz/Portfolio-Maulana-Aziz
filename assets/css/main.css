@@ -5236,7 +5236,7 @@ a img {
   }
 }
 .content-box {
-  width: 350px;
+  width: auto;
   background-color: #f9f9f9;
   border: 2px solid #f0f0f0;
   border-radius: 10px;
